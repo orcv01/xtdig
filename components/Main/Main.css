@@ -1,0 +1,9 @@
+.dev {
+    height: 500px;
+    width: 3000px;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    padding: 70px;
+
+}

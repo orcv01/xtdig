@@ -2,8 +2,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 8rem;
-    gap: 4rem;
+    /*padding: 0 8rem;*/
+    /*gap: 4rem;*/
     flex-wrap: wrap;
     margin: 2rem 0;
 }
@@ -15,7 +15,19 @@ footer {
     }
 }
 
-.foot {
-    display:grid;
-    grid-template-rows: 1fr;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
 }
+
+.logo-dig {
+    height: 100px;
+    width: 300px;
+}
+
+.logo-dig{
+    height: 100px;
+    width: 200px;
+}
+

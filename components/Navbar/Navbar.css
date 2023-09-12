@@ -13,6 +13,23 @@ div, nav {
     }
 }
 
+img {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-xtalento {
+    height: 100px;
+        width: 300px;
+
+    }
+
+.logo-once {
+    height: 100px;
+    width: 300px;
+}
+
 nav>ul {
     display: flex;
     gap: 3rem;

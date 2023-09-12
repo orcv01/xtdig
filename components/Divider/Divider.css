@@ -1,0 +1,13 @@
+.divider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    flex-wrap: wrap;
+
+    border-bottom: 1px solid var(--divider);
+    height: 1px;
+    width: 100%;
+    display: block;
+    margin: 1rem 0;
+}
